@@ -1,8 +1,8 @@
 cask "claudepilot" do
-  version :latest
-  sha256 :no_check
+  version "1.1.8"
+  sha256 "b6b3126c5741e6f3958c7d7186147e5bf1075e547805e58996d3807888b6937a"
 
-  url "https://github.com/sha2kyou/ClaudePilot/releases/latest/download/ClaudePilot-latest.dmg",
+  url "https://github.com/sha2kyou/ClaudePilot/releases/download/v#{version}/ClaudePilot-v#{version}.dmg",
       verified: "github.com/sha2kyou/ClaudePilot/"
   name "ClaudePilot"
   desc "Menu bar trigger manager for Claude Desktop"
