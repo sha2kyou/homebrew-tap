@@ -1,6 +1,6 @@
 cask "claudepilot" do
-  version "1.1.9"
-  sha256 "bfd30e0f757ee8e2c5eb26cd47c397bcf1842cd8377766500e01c54e905786fa"
+  version "1.1.10"
+  sha256 "79596ae333d0fea99f66e272ea7d7183b644635ecb49762083395b3df39ddc9f"
 
   url "https://github.com/sha2kyou/ClaudePilot/releases/download/v#{version}/ClaudePilot-v#{version}.dmg",
       verified: "github.com/sha2kyou/ClaudePilot/"
