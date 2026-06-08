@@ -13,8 +13,12 @@ cask "agentpod" do
 
   postflight do
     app_path = "#{appdir}/AgentPod.app"
+    next unless File.exist?(app_path)
+
+    # Framework 内可能有断链 symlink，递归 xattr 失败不应阻断安装。
     system_command "/usr/bin/xattr",
-                   args: ["-dr", "com.apple.quarantine", app_path] if File.exist?(app_path)
+                   args: ["-dr", "com.apple.quarantine", app_path],
+                   must_succeed: false
   end
 
   zap trash: [
