@@ -1,8 +1,8 @@
 cask "agentpod" do
-  version "0.1.17"
-  sha256 "445adddb01cfcd91e85ef2015ec49affafb109a83731f13536f3735f697ba26c"
+  version "0.1.18"
+  sha256 "f0b3b06cd1a3b833c1aeec8daa2e875225bd2bf97ebbcacb866d06acedcf0f4d"
 
-  url "https://github.com/sha2kyou/agentpod/releases/download/v#{version}/AgentPod_#{version}_aarch64.dmg",
+  url "https://github.com/sha2kyou/agentpod/releases/download/v#{version}/AgentPod_#{version}_macos-arm64.dmg",
       verified: "github.com/sha2kyou/agentpod/"
   name "AgentPod"
   desc "macOS desktop AI agent with chat, skills, MCP, and memory"
