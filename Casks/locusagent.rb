@@ -8,6 +8,10 @@ cask "locusagent" do
   desc "macOS desktop AI agent with chat, skills, MCP, and memory"
   homepage "https://github.com/sha2kyou/locusagent"
 
+  caveats <<~EOS
+    Locus Agent was formerly known as AgentPod. Your existing data under ~/.locusagent is preserved.
+  EOS
+
   auto_updates true
   app "Locus Agent.app"
 
