@@ -1,6 +1,6 @@
 cask "agentpod" do
-  version "0.1.19"
-  sha256 "b00df7a840d9144145e34169e5056ed85a1d5e09ac4f6a8942147b222f3439b4"
+  version "0.1.20"
+  sha256 "9e599b3e1d940c5e4dbf90931395a28c649f19e94f76a580b11e15f58101d65a"
 
   url "https://github.com/sha2kyou/agentpod/releases/download/v#{version}/AgentPod_#{version}_macos-arm64.dmg",
       verified: "github.com/sha2kyou/agentpod/"
