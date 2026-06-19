@@ -1,16 +1,12 @@
 cask "locusagent" do
-  version "0.2.0"
-  sha256 "519b2c6faefa2f329aab66388e777f5b25fa3407b831701cbfbb098cdb152247"
+  version "0.3.0"
+  sha256 "d8d41d8509dfb61f10e3ab64a0d5dc8bb995f466353bf3a94e826ef41e554946"
 
   url "https://github.com/sha2kyou/locusagent/releases/download/v#{version}/LocusAgent_#{version}_macos-arm64.dmg",
       verified: "github.com/sha2kyou/locusagent/"
   name "Locus Agent"
   desc "macOS desktop AI agent with chat, skills, MCP, and memory"
   homepage "https://github.com/sha2kyou/locusagent"
-
-  caveats <<~EOS
-    Locus Agent was formerly known as AgentPod. Your existing data under ~/.locusagent is preserved.
-  EOS
 
   auto_updates true
   app "Locus Agent.app"
