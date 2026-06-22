@@ -1,6 +1,6 @@
 cask "locusagent" do
-  version "0.3.0"
-  sha256 "d8d41d8509dfb61f10e3ab64a0d5dc8bb995f466353bf3a94e826ef41e554946"
+  version "0.3.1"
+  sha256 "0a5cf65f854f2a9f1e132834ae21308d84c9db3edf5bab57568cc082cd37cee1"
 
   url "https://github.com/sha2kyou/locusagent/releases/download/v#{version}/LocusAgent_#{version}_macos-arm64.dmg",
       verified: "github.com/sha2kyou/locusagent/"
@@ -22,6 +22,8 @@ cask "locusagent" do
 
   zap trash: [
     "~/.locusagent",
+    "~/Library/Preferences/cn.tr1ck.locus.plist",
+    "~/Library/Saved Application State/cn.tr1ck.locus.savedState",
     "~/Library/Preferences/com.locusagent.desktop.plist",
     "~/Library/Saved Application State/com.locusagent.desktop.savedState",
   ]
