@@ -1,6 +1,6 @@
 cask "locusagent" do
-  version "0.3.2"
-  sha256 "2883dacaeb06ecf7c0a3d38e461de61113e6b684af228c19bf0720745c5de573"
+  version "0.4.0"
+  sha256 "863142da2a47a8ef00f0800f987c75a252e1fcdb48fe708228ab05107e25c862"
 
   url "https://github.com/sha2kyou/locusagent/releases/download/v#{version}/LocusAgent_#{version}_macos-arm64.dmg",
       verified: "github.com/sha2kyou/locusagent/"
